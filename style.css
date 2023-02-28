@@ -54,6 +54,23 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.btn {
+  margin-top: 2rem;
+}
+.btn a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: #d3c8c8;
+  transition: all 0.6s ease-in-out;
+  border-radius: 5px;
+  color: black;
+}
+.btn a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 0 0 12px white;
+}
+
 .box {
   background-size: cover;
   background-position: top;
